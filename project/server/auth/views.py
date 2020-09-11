@@ -66,8 +66,3 @@ auth_blueprint.add_url_rule(
     view_func=registration_view,
     methods=['POST', 'GET']
 )
-auth_blueprint.add_url_rule(
-    '/user/index',
-    view_func=registration_view,
-    methods=['POST', 'GET']
-)
